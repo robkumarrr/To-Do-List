@@ -1,0 +1,18 @@
+GET http://localhost:3001/todos
+
+###
+
+POST http://localhost:3001/todo/new
+Content-Type: application/json
+
+{
+    "text": "Sit with Hazy Daisy"
+}
+
+###
+
+DELETE http://localhost:3001/todo/delete/64bf54d7b322e6ebd6dbd1af
+
+###
+
+PUT http://localhost:3001/todo/complete/64bf54dab322e6ebd6dbd1b1
